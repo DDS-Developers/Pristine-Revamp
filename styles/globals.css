@@ -1,26 +1,96 @@
+:root {
+	--pristine-green: #00989c;
+	--grey: #959595;
+	--light-grey: #e2e2e2;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	color: white;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+/* Customs */
+/* @media (min-width: 1200px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 1920px;
+	}
+} */
+
+.icons {
+	width: 20px;
+	height: 20px;
 }
+
+.footer {
+	background-image: url("/assets/images/footer.png");
+	height: 153px;
+	max-height: 153px;
+	display: flex;
+	align-items: flex-end;
+	padding-bottom: 30px;
+}
+/*  */
+
+/* Colors */
+.color-pristine-green {
+	color: var(--pristine-green);
+}
+
+.color-grey {
+	color: var(--grey);
+}
+/*  */
+
+/* Backgrounds */
+.bg-pristine-green {
+	background-color: var(--pristine-green);
+}
+
+.bg-white {
+	background-color: white;
+}
+/*  */
+
+/* Borders */
+.border-light-grey {
+	border: solid 1px var(--light-grey);
+}
+
+/* Font sizes */
+.font-size-12 {
+	font-size: 12px;
+}
+
+.font-size-14 {
+	font-size: 14px;
+}
+/*  */
+
+/* Margins */
+.me-40 {
+	margin-right: 40px;
+}
+/*  */
+
+/* Heights */
+.h-40px {
+	height: 40px;
+}
+/*  */
