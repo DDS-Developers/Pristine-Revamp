@@ -40,7 +40,7 @@ function Footer() {
 								Hubungi Kami
 							</a>
 						</Link>
-						<Link href="#">
+						<Link href="/syarat-dan-ketentuan">
 							<a className="font-size-14 fw-bold">
 								Syarat &amp; Ketentuan
 							</a>

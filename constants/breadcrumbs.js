@@ -10,3 +10,16 @@ export const hubungiKami = [
 		current: true,
 	},
 ];
+
+export const syaratDanKetentuan = [
+	{
+		url: "/",
+		label: "Home",
+		current: false,
+	},
+	{
+		url: "#",
+		label: "Syarat & Ketentuan",
+		current: true,
+	},
+];
