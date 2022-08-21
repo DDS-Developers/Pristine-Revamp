@@ -49,7 +49,7 @@ function Navbar() {
 							</Link>
 						</div>
 						<div className="me-4 d-flex align-items-center">
-							<Link href="/hubungi_kami">
+							<Link href="/hubungi-kami">
 								<a className="color-pristine-green font-size-12 fw-bold text-center">
 									HUBUNGI KAMI
 								</a>
