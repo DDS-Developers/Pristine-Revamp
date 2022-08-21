@@ -39,101 +39,103 @@ function Index() {
 							</div>
 						</div>
 					</div>
-					<div className="col-lg-5 shadow rounded-20 p-5 d-grid gap-4">
-						<div className="font-size-26 color-pristine-green fw-bold text-center">
-							Daftar
-						</div>
-						<div className="font-size-16 fw-bold color-dark-grey text-center">
-							Masuk untuk menikmati keuntungan Pristine8.6
-						</div>
-						<div className="font-size-16 text-center color-dark-grey">
-							Sudah punya akun?{" "}
-							<span>
-								<Link href="/login">
-									<a className="color-pristine-green fw-semi-bold">
-										Login di Sini
-									</a>
-								</Link>
-							</span>
-						</div>
-						<button className="border-facebook-blue p-2 d-flex align-items-center justify-content-center rounded-20 bg-white">
-							<img
-								src="/assets/images/facebook-blue.png"
-								alt="Facebook Blue"
-								className="icons"
-							/>
-							<span className="color-facebook-blue ms-2">
-								Daftar menggunakan akun Facebook
-							</span>
-						</button>
-						<button className="border-google-orange p-2 d-flex align-items-center justify-content-center rounded-20 bg-white">
-							<img
-								src="/assets/images/google.png"
-								alt="Google"
-								className="icons"
-							/>
-							<span className="color-google-orange ms-2">
-								Daftar menggunakan akun Google
-							</span>
-						</button>
-						<div className="d-flex align-items-center">
-							<div className="flex-fill border-light-grey" />
-							<div className="font-size-12 color-light-grey mx-3">
-								ATAU
-							</div>
-							<div className="flex-fill border-light-grey" />
-						</div>
-						<form
-							onSubmit={handleSubmit(onSubmit)}
-							className="d-grid gap-4"
-						>
-							<div className="d-grid gap-2">
-								<div className="font-size-13 color-dark-grey">
-									Nama Lengkap
-								</div>
-								<input
-									type="text"
-									className="form-control rounded-20"
-									defaultValue=""
-								/>
-							</div>
-							<div className="d-grid gap-2">
-								<div className="font-size-13 color-dark-grey">
-									Email
-								</div>
-								<input
-									type="email"
-									className="form-control rounded-20"
-									defaultValue=""
-								/>
-							</div>
-							<div className="d-grid gap-2">
-								<div className="font-size-13 color-dark-grey">
-									No. Handphone
-								</div>
-								<input
-									type="text"
-									className="form-control rounded-20"
-									defaultValue=""
-								/>
-							</div>
-							<div className="d-grid gap-2">
-								<div className="font-size-13 color-dark-grey">
-									Kata Sandi
-								</div>
-								<input
-									type="password"
-									className="form-control rounded-20"
-									defaultValue=""
-								/>
-							</div>
-							<button
-								type="submit"
-								className="rounded-20 p-2 text-center bg-pristine-green font-16 fw-bold color-white border-pristine-green"
-							>
+					<div className="col-lg-5">
+						<div className="shadow rounded-20 p-5 d-grid gap-4">
+							<div className="font-size-26 color-pristine-green fw-bold text-center">
 								Daftar
+							</div>
+							<div className="font-size-16 fw-bold color-dark-grey text-center">
+								Masuk untuk menikmati keuntungan Pristine8.6
+							</div>
+							<div className="font-size-16 text-center color-dark-grey">
+								Sudah punya akun?{" "}
+								<span>
+									<Link href="/login">
+										<a className="color-pristine-green fw-semi-bold">
+											Login di Sini
+										</a>
+									</Link>
+								</span>
+							</div>
+							<button className="border-facebook-blue p-2 d-flex align-items-center justify-content-center rounded-20 bg-white">
+								<img
+									src="/assets/images/facebook-blue.png"
+									alt="Facebook Blue"
+									className="icons"
+								/>
+								<span className="color-facebook-blue ms-2">
+									Daftar menggunakan akun Facebook
+								</span>
 							</button>
-						</form>
+							<button className="border-google-orange p-2 d-flex align-items-center justify-content-center rounded-20 bg-white">
+								<img
+									src="/assets/images/google.png"
+									alt="Google"
+									className="icons"
+								/>
+								<span className="color-google-orange ms-2">
+									Daftar menggunakan akun Google
+								</span>
+							</button>
+							<div className="d-flex align-items-center">
+								<div className="flex-fill border-light-grey" />
+								<div className="font-size-12 color-light-grey mx-3">
+									ATAU
+								</div>
+								<div className="flex-fill border-light-grey" />
+							</div>
+							<form
+								onSubmit={handleSubmit(onSubmit)}
+								className="d-grid gap-4"
+							>
+								<div className="d-grid gap-2">
+									<div className="font-size-13 color-dark-grey">
+										Nama Lengkap
+									</div>
+									<input
+										type="text"
+										className="form-control rounded-20"
+										defaultValue=""
+									/>
+								</div>
+								<div className="d-grid gap-2">
+									<div className="font-size-13 color-dark-grey">
+										Email
+									</div>
+									<input
+										type="email"
+										className="form-control rounded-20"
+										defaultValue=""
+									/>
+								</div>
+								<div className="d-grid gap-2">
+									<div className="font-size-13 color-dark-grey">
+										No. Handphone
+									</div>
+									<input
+										type="text"
+										className="form-control rounded-20"
+										defaultValue=""
+									/>
+								</div>
+								<div className="d-grid gap-2">
+									<div className="font-size-13 color-dark-grey">
+										Kata Sandi
+									</div>
+									<input
+										type="password"
+										className="form-control rounded-20"
+										defaultValue=""
+									/>
+								</div>
+								<button
+									type="submit"
+									className="rounded-20 p-2 text-center bg-pristine-green font-16 fw-bold color-white border-pristine-green"
+								>
+									Daftar
+								</button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
