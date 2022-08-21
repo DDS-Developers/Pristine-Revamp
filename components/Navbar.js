@@ -35,7 +35,7 @@ function Navbar() {
 							</Link>
 						</div>
 						<div className="me-4 d-flex align-items-center">
-							<Link href="#">
+							<Link href="/artikel">
 								<a className="color-pristine-green font-size-12 fw-bold text-center">
 									ARTIKEL
 								</a>

@@ -23,3 +23,16 @@ export const syaratDanKetentuan = [
 		current: true,
 	},
 ];
+
+export const artikel = [
+	{
+		url: "/",
+		label: "Home",
+		current: false,
+	},
+	{
+		url: "#",
+		label: "Artikel",
+		current: true,
+	},
+];

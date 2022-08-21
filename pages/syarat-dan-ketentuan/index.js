@@ -12,7 +12,7 @@ function Index() {
 			<PageHeader title="Syarat &amp; Ketentuan" />
 			<Breadcrumb breadcrumb={syaratDanKetentuan} />
 			<div className="container" style={{ marginBottom: "425px" }}>
-				<div className="row justify-content-center">
+				<div className="row">
 					<div className="col-lg d-grid gap-3 color-dark-grey">
 						<div>
 							PT. Super Wahana Tehno menyadari betapa pentingnya
