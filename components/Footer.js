@@ -2,13 +2,13 @@ import Link from "next/link";
 
 function Footer() {
 	return (
-		<div className="footer fixed-bottom">
+		<footer className="footer">
 			<div className="container">
 				<div className="row justify-content-between align-items-center">
 					<div className="col-lg">
 						<div className="font-size-14 fw-bold">
-							Copyright &copy; Pristine8.6+ 2021. All Rights
-							Reserved
+							Copyright &copy; Pristine8.6+ 2022. All Rights
+							Reserved.
 						</div>
 						<div className="font-size-14 fw-bold">
 							PT. Super Wahana Tehno
@@ -48,7 +48,7 @@ function Footer() {
 					</div>
 				</div>
 			</div>
-		</div>
+		</footer>
 	);
 }
 

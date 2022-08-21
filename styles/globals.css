@@ -1,7 +1,11 @@
 :root {
-	--pristine-green: #00989c;
-	--grey: #959595;
+	--pristine-green: #0f978d;
+	--pristine-green-dark: #006265;
+	--grey: #848484;
 	--light-grey: #e2e2e2;
+	--dark-grey: #4a4a4a;
+	--facebook-blue: #00489c;
+	--google-orange: #e14929;
 }
 
 html,
@@ -34,17 +38,28 @@ a {
 } */
 
 .icons {
-	width: 20px;
-	height: 20px;
+	width: 16px;
+	height: 16px;
 }
 
 .footer {
 	background-image: url("/assets/images/footer.png");
+	background-repeat-x: no-repeat;
+	background-position-x: center;
 	height: 153px;
 	max-height: 153px;
 	display: flex;
 	align-items: flex-end;
 	padding-bottom: 30px;
+}
+
+.form-control {
+	padding: 0.75rem;
+}
+
+.form-control:focus {
+	border-color: var(--pristine-green);
+	box-shadow: 0 0 0 0.25rem rgba(15, 151, 141, 0.25);
 }
 /*  */
 
@@ -53,8 +68,32 @@ a {
 	color: var(--pristine-green);
 }
 
+.color-pristine-green-dark {
+	color: var(--pristine-green-dark);
+}
+
 .color-grey {
 	color: var(--grey);
+}
+
+.color-dark-grey {
+	color: var(--dark-grey);
+}
+
+.color-facebook-blue {
+	color: var(--facebook-blue);
+}
+
+.color-google-orange {
+	color: var(--google-orange);
+}
+
+.color-light-grey {
+	color: var(--light-grey);
+}
+
+.color-white {
+	color: white;
 }
 /*  */
 
@@ -66,6 +105,14 @@ a {
 .bg-white {
 	background-color: white;
 }
+
+/* .hover\:bg-facebook-blue:hover {
+	background-color: var(--facebook-blue) !important;
+}
+
+.hover\:bg-google-orange:hover {
+	background-color: var(--google-orange) !important;
+} */
 /*  */
 
 /* Borders */
@@ -73,13 +120,46 @@ a {
 	border: solid 1px var(--light-grey);
 }
 
+.border-facebook-blue {
+	border: solid 1px var(--facebook-blue);
+}
+
+.border-google-orange {
+	border: solid 1px var(--google-orange);
+}
+
+.border-pristine-green {
+	border: solid 1px var(--pristine-green);
+}
+
+.rounded-20 {
+	border-radius: 20px;
+}
+/*  */
+
 /* Font sizes */
 .font-size-12 {
 	font-size: 12px;
 }
 
+.font-size-13 {
+	font-size: 13px;
+}
+
 .font-size-14 {
 	font-size: 14px;
+}
+
+.font-size-18 {
+	font-size: 18px;
+}
+
+.font-size-24 {
+	font-size: 24px;
+}
+
+.font-size-26 {
+	font-size: 26px;
 }
 /*  */
 
@@ -92,5 +172,11 @@ a {
 /* Heights */
 .h-40px {
 	height: 40px;
+}
+/*  */
+
+/* Font weights */
+.fw-semi-bold {
+	font-weight: 500;
 }
 /*  */

@@ -18,7 +18,7 @@ function Master({ children }) {
 				<link rel="icon" href="/assets/images/favicon.png" />
 			</Head>
 			<Navbar />
-			<div className="container">{children}</div>
+			{children}
 			<Footer />
 		</React.Fragment>
 	);
